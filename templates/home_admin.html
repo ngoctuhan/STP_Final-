@@ -63,38 +63,45 @@
             });
 
             $("#checklog").click(function() {
-
+                let curr = window.location.href;
+                curr = curr.split('/');
+                let user_nv = curr[curr.length - 1];
+                url = 'http://127.0.0.1:5000/checklog/'+user_nv;
+                $("#checklog").attr("href", url);
             });
             $('#btn_tim').click(function() {
-                let hd = $("#input_tim").val();
+                let name_cv = $("#input_tim").val();
+                let curr = window.location.href;
+                curr = curr.split('/');
+                let user_nv = curr[curr.length - 1];
+                path = '/timcv/'+user_nv;
                 $.ajax({
                     type: "POST",
-                    url: "/timcv",
+                    url: path,
                     data: {
-                        tenjob: hd
+                        tencv: name_cv
                     },
                     dataType: 'json',
                     success: function(response) {
-                        $("#tbody").empty();
-                        if (response['status'] != 'no') {
-                            var tmp_data = response['data']
+                            $("#tbody").empty();
+                            var tmp_data = response
                             for (let row_data in tmp_data) {
-                                var tmp_list = response['data'][row_data];
+                                var tmp_list = tmp_data[row_data];
                                 var new_element = '<td> ' + tmp_list[0] + ' </td>';
                                 new_element += '<td> ' + tmp_list[1] + ' </td>';
                                 new_element += '<td> ' + tmp_list[2] + ' </td>';
-                                new_element += '<td> ' + tmp_list[3] + ' </td>';
                                 new_element += '<td> ' + tmp_list[4] + ' </td>';
                                 new_element += '<td> ' + tmp_list[5] + ' </td>';
+                                new_element += '<td><a style="color: #f1c40f;" href="{{url_for("custom_static", filename='+tmp_list[6]  +')}}">Xem chi tiết</a></td>';
                                 new_element = '<tr style="background-color: #273c75;">' + new_element;
                                 new_element += '</tr>';
                                 $("#tbody").append(new_element);
                             }
-                        }
                     }
 
                 });
             });
+
         });
     </script>
     <nav class="container-fluid navbar navbar-expand-sm  row top-web">
@@ -166,7 +173,7 @@
                                     <td>{{row[2]}}</td>
                                     <td>{{row[4]}}</td>
                                     <td>{{row[5]}}</td>
-                                    <td><button class="btn btn-info"><a href="{{url_for('custom_static', filename=row[6])}}">Xem chi tiết</a></button></td>
+                                    <td><a  style="color: #f1c40f;" href="{{url_for('custom_static', filename=row[6])}}">Xem chi tiết</a></td>
                                 </tr>
                                 {% endfor %}
                             </tbody>

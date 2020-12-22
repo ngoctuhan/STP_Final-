@@ -38,7 +38,13 @@
             $("#ttcn").click(function() {
 
             });
-
+            $("#home").click(function() {
+                let curr = window.location.href;
+                curr = curr.split('/');
+                let user_nv = curr[curr.length - 1];
+                url = 'http://127.0.0.1:5000/admin/'+user_nv;
+                $("#home").attr("href", url);
+            });
             $("#duyetcv").click(function() {
                 let curr = window.location.href;
                 curr = curr.split('/');
@@ -56,7 +62,11 @@
             });
 
             $("#checklog").click(function() {
-
+                let curr = window.location.href;
+                curr = curr.split('/');
+                let user_nv = curr[curr.length - 1];
+                url = 'http://127.0.0.1:5000/checklog/'+user_nv;
+                $("#checklog").attr("href", url);
             });
             $('#btn_tim').click(function() {
                 let name_intent = $("#input_tim").val();

@@ -10,13 +10,21 @@ class CV:
     def get_cv(self):
         return self.df
 
-    def get_Designation(self, designation):
-        tmp = pd.read_csv('dataset/infor_cv/cv.csv')
+    def search_cv(self, filter, folder_data):
 
-        # '''tmp1 = tmp[str(tmp['Designation']).find(designation)!=-1]
-        # print(tmp1)'''
+        filter = filter.lower()
+        if folder_data is None:
+            folder_data = 'dataset/infor_cv/cv.csv'
 
+        df = pd.read_csv(folder_data)
 
-if __name__ == "__main__":
-    cv = CV('utils/cv.csv')
-    print(cv.get_cv())
+        # result = df[filter in df['Designation']]
+
+        tmp = [str(v).lower().replace("\n", " ")
+               for v in df['Designation'].values]
+
+        result = [i for i, des in enumerate(tmp) if des.find(filter) >= 0]
+
+        X = df.values[result]
+        X = X.tolist()
+        return X

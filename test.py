@@ -61,25 +61,25 @@ from utils.covertPDF2TXT import docx2txt
 # sequences = [([x], 0.0) for x in gen_accents_word("yêu")]
 
 # print(sequences)
-sg = Suggestion('model_LM', ver=2)
+# sg = Suggestion('model_LM', ver=2)
 
-print(sg.find_next_word(['ngày', 'hôm', 'nay']))
-
-
-def load_obj(name, folder):
-    with open(folder + '/' + name + '.pkl', 'rb') as f:
-        return pickle.load(f)
+# print(sg.find_next_word(['ngày', 'hôm', 'nay']))
 
 
-sg = Suggestion('model_LM', ver=2)
+# def load_obj(name, folder):
+#     with open(folder + '/' + name + '.pkl', 'rb') as f:
+#         return pickle.load(f)
 
-t1 = time.time()
-res = sg.find_next_word(['em', 'muốn'])
-print('Next word : em muốn', )
-for word in res:
-    print(word[0])
-t2 = time.time()
-print(t2-t1)
+
+# sg = Suggestion('model_LM', ver=2)
+
+# t1 = time.time()
+# res = sg.find_next_word(['em', 'muốn'])
+# print('Next word : em muốn', )
+# for word in res:
+#     print(word[0])
+# t2 = time.time()
+# print(t2-t1)
 
 # sg.logscore(['nhân', 'dân'], 'sẽ')
 # sg.logscore(['nhân', 'viên'], 'sẽ')
@@ -113,3 +113,14 @@ print(t2-t1)
 
 # rand_index = random.randint(0, total_words - 1)
 # first_word = list()
+
+
+# from utils.save_log import save_log
+
+
+# save_log('dataset/log_chat.csv', 'Tôi muốn gửi cv thì gửi cho ai', 'submitCV', 'localhost')
+
+from utils.datacv import CV
+
+cv = CV('dataset/infor_cv/cv.csv')
+print(cv.search_cv('software', None))

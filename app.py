@@ -1,6 +1,7 @@
 from flask import (Flask, session, g, json, Blueprint, flash, jsonify, redirect, render_template, request,
                    url_for, send_from_directory)
 from flask_socketio import SocketIO, emit
+import flask
 import requests
 import logging
 import sys
@@ -23,6 +24,8 @@ from src.lm.suggestor import Suggestion
 from utils.dataaccount import Login
 from utils.datacv import CV
 from utils.dataintent import Intent
+from utils.save_log import save_log
+from utils.datalog import Log
 
 prs = Params()
 bot = Selena('models/MLP_model_nlu.pickle')
@@ -84,6 +87,21 @@ def admin(username):
     return render_template("home_admin.html", data=data)
 
 
+@app.route('/timcv/<username>', methods=['GET', 'POST'])
+def timcv(username):
+    data = CV('dataset/infor_cv/cv.csv')
+    res = data.search_cv(request.form['tencv'], None)
+    print(res)
+    return jsonify(res)
+
+
+@app.route('/checklog/<username>', methods=['GET', 'POST'])
+def checklog(username):
+    log = Log('dataset/log_chat.csv')
+    data = log.get_log()
+    return render_template("check_log.html", data=data)
+
+
 '''Intent'''
 
 
@@ -91,6 +109,8 @@ def admin(username):
 def chinhintent(username):
     dataIntent = Intent('dataset/nlu_answer')
     data = dataIntent.get_intent()
+    global bot
+    bot = Selena('models/MLP_model_nlu.pickle')
     return render_template('ans_intent.html', data=data)
 
 
@@ -297,6 +317,10 @@ def handle_my_custom_event(json_data):
                 json_data[key] = more
 
     json_data["user_name"] = "Bot: "
+
+    x = threading.Thread(target=save_log, args=(
+        'dataset/log_chat.csv', data["message"], json_data['intent'], flask.request.remote_addr, ))
+    x.start()
     socketio.emit('my response', json_data, callback=messageRecived)
 
 
