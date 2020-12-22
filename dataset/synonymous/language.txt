@@ -1,0 +1,39 @@
+python
+java
+node js
+js
+c
+c++
+c/c++
+c#
+dot
+net
+not net
+android
+ios
+swift
+assembly
+nhúng
+ruby
+rail
+jsp
+kotlin
+go lang
+golang
+matlap
+javascipt
+php
+c ++
+objective-C
+css
+html
+ai 
+machine learning
+ml 
+deep learning
+deeplearning 
+dl 
+data scient
+data engine 
+ios 
+android

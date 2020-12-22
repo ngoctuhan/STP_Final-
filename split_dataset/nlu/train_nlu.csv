@@ -1,0 +1,1900 @@
+Sentence,Intent
+"- Hồ sơ của tôi bị thiếu có bị loại không
+",brief
+"- Thông tin nào cần có trong CV
+",brief
+- Những thứ cần có trong hồ sơ xin việc,brief
+"- Hồ sơ xin việc cần những gì
+",brief
+"- CV xin việc cần điền những nội dung gì
+",brief
+"- Hồ sơ xin việc cần có những gì
+",brief
+"- Các giấy tờ cần có trong hồ sơ xin việc
+",brief
+"- CV cần những gì
+",brief
+"- CV cần phải điền những gì
+",brief
+"- Tôi mất chứng minh nhân dân thì phải làm sao để ứng tuyển
+",brief
+"- CV cần có những thông tin nào
+",brief
+"- CV cần có những thông tin nào
+",brief
+"- Hồ sơ xin việc gồm loại giấy tờ nào
+",brief
+"- Đăng ký svmc cần những giấy tờ gì
+",brief
+"- Hồ sơ xin việc gồm loại giấy tờ nào
+",brief
+"- Hồ sơ xin việc cần có những gì
+",brief
+"- Tôi cần công chứng những gì để làm hồ sơ
+",brief
+"- Hồ sơ tuyển dụng gồm những gì
+",brief
+"- CV xin việc cần những gì
+",brief
+"- Trong hồ sơ xin việc cần những cái gì
+",brief
+"- Hồ sơ xin việc gồm loại giấy tờ nào
+",brief
+"- Hồ sơ xin việc svmc yêu cầu những gì
+",brief
+"- Ứng tuyển svmc cần photo sổ đỏ không
+",brief
+"- Hồ sơ xin việc ra sao
+",brief
+"- Ứng tuyển svmc cần chứng minh nhân dân không
+",brief
+"- Sơ yếu lý lịch cần viết chi tiết không
+",brief
+"- Hồ sơ xin việc cần có những gì?
+",brief
+"- Ứng tuyển svmc cần bằng cấp 3 không
+",brief
+"- Hồ sơ của tôi thiếu chứng minh nhân dân có được không
+",brief
+"- Những thứ cần có trong hồ sơ xin việc
+",brief
+"- Hồ sơ của tôi không có bản sao sổ hộ khẩu có sao không
+",brief
+"- Phải chuẩn bị giấy tờ gì để ứng tuyển svmc
+",brief
+"- Hồ sơ xin việc cần có những gì?
+",brief
+"- Cv xin việc có yêu cầu gì không
+",brief
+"- Sơ yếu lý lịch cần công chứng không
+",brief
+"- Hồ sơ xin việc cần đơn xin việc không
+",brief
+"- Hồ sơ xin việc cần công chứng những gì
+",brief
+"- Đăng ký svmc cần chuẩn bị hồ sơ như nào
+",brief
+"- Tôi không nộp đơn xin việc có bị loại không
+",brief
+"- Hồ sơ xin việc gồm những cái gì
+",brief
+"- CV cần những gì
+",brief
+"- Phải chuẩn bị giấy tờ gì để ứng tuyển vào công ty
+",brief
+"- CV cần những giấy tờ gì
+",brief
+"- Tôi mất chứng minh nhân dân thì có ứng tuyển được không
+",brief
+"- CV cần những giấy tờ gì
+",brief
+"- Trong hồ sơ xin việc cần những cái gì
+",brief
+"- Ứng tuyển svmc cần căn cước công dân không
+",brief
+"- Hồ sơ thiếu giấy tờ có bị bỏ không
+",brief
+"- Thông tin nào cần có trong CV
+",brief
+"- Cần chuẩn bị những giấy tờ gì để ứng tuyển
+",brief
+"- Hồ sơ xin việc gồm loại giấy tờ nào
+",brief
+"- Hồ sơ tuyển dụng cần những gì
+",brief
+"- Cảm ơn bot
+",bye
+"- Hẹn gặp lại
+",bye
+"- Mau mau lượn
+",bye
+"- Next
+",bye
+"- Uh
+",bye
+"- Many thanks
+",bye
+"- Oke
+",bye
+"- Thanks
+",bye
+"- Cảm ơn bạn nhiều
+",bye
+"- Dừng
+",bye
+"- Tạm biệt nhé
+",bye
+"- Ok
+",bye
+"- Cảm ơn
+",bye
+"- Bye
+",bye
+"- Thân ái và chào tạm biệt
+",bye
+"- Biến đi
+",bye
+"- Cảm ơn bạn nhiều
+",bye
+"- Thôi tôi xin ông
+",bye
+"- Oke oke
+",bye
+"- Em cảm ơn ạ
+",bye
+"- Cút đi
+",bye
+"- Đi ngủ đây
+",bye
+"- Ukm
+",bye
+"- Xéo đi
+",bye
+"- Cảm ơn ad
+",bye
+"- Cút xéo đi
+",bye
+"- Lượn đi
+",bye
+"- Oke cảm ơn
+",bye
+"- Oke thanks
+",bye
+"- Chào 
+",bye
+"- Off đây
+",bye
+"- Oke la
+",bye
+"- Cảm ơn admin
+",bye
+- Dừng mẹ mày đi,bye
+"- Vĩnh biệt
+",bye
+"- Cảm ơn bạn nhé
+",bye
+"- Thank you
+",bye
+- các quán ăn gần công ty không,canteen
+"- công ty có căng tin không
+",canteen
+"- căng tin của công ty chỗ nào
+",canteen
+"- các quán ăn cho công ty ở đâu
+",canteen
+"- trong công ty có chỗ ăn cho nhân viên không
+",canteen
+"- trong công ty có căng tin hay là ăn bên ngoài
+",canteen
+"- công ty có quán ăn hay căng tin gì không
+",canteen
+"- gần công ty có quán ăn ông
+",canteen
+"- trong công ty có phòng pantree không
+",canteen
+"- có chỗ ăn gần công ty không
+",canteen
+"- nhà ăn ở đâu
+",canteen
+"- công ty có nhà ăn buổi trưa không
+",canteen
+"- ăn trưa ở công ty chỗ nào
+",canteen
+"- có nhiều quán ăn bên cạnh công ty không
+",canteen
+"- trong công ty có chỗ ăn uống cho nhân viên không
+",canteen
+"- Công ty có canteen không
+",canteen
+"- Công ty có chỗ ăn nào không
+",canteen
+"- Canteen công ty thế nào
+",canteen
+"- Công ty có chỗ ăn không
+",canteen
+"- Canteen có không
+",canteen
+"- có dễ dàng mua đồ ăn trong công ty không
+",canteen
+"- trong công ty có quán bánh mỳ hay bún gì không
+",canteen
+"- Canteen công ty nằm chỗ nào
+",canteen
+"- công ty có nhà bếp cho nhân viên không
+",canteen
+"- ăn uống trong công ty ra sao, có gần không
+",canteen
+"- căng tin ở tầng mấy của công ty
+",canteen
+"- có nhiều quán ăn không
+",canteen
+"- ăn uông trong công ty ở chỗ nào
+",canteen
+"- Có canteen không
+",canteen
+"- bếp ăn cho nhân viên có rộng không
+",canteen
+"- có căng tin cho nhân viên bên trong công ty không
+",canteen
+"- ăn uống như thế nào
+",canteen
+"- có bếp ăn cho nhân viên tại công ty không
+",canteen
+"- Công ty có câu lạc bộ gym không
+",club
+"- có nhiều hoạt động và câu lạc bộ không
+",club
+"- Ngoài giờ làm việc thì có những hoạt động thể dục thể thao nào
+",club
+"- trong công ty có nhiều người chơi lol, aoe không
+",club
+"- Hoạt động thể dục thể thao của công ty thế nào
+",club
+"- Công ty có nhiều câu lạc bộ không
+",club
+"- công ty có các câu lạc bộ gì 
+",club
+"- Công ty có câu lạc bộ gì không
+",club
+"- Hoạt động thể dục thể thao của SVMC thế nào
+",club
+"- có giải đấu đá bóng không
+",club
+"- Công ty có nhiều các hoạt động thể dục thể thao không
+",club
+- có các hoạt động thể thao nào,club
+"- Công ty có câu lạc bộ dạy học không
+",club
+"- trong công ty có những hội thao nào
+",club
+"- Anh chị có tạo câu lạc bộ gì không
+",club
+"- Hoạt động thể dục thể thao thế nào
+",club
+"- Trong công ty có club gì không
+",club
+"- Ad cho xin thông tin về các hoạt động thể dục thể thao
+",club
+"- Hoạt động thể dục thể thao có không
+",club
+"- Công ty có câu lạc bộ nào không
+",club
+"- Mọi người có thành lập câu lạc bộ nào không
+",club
+"- cuối tuần công ty có các hoạt động ngoại khóa nào
+",club
+"- công ty có tổ chức giải đấu thể thao nhân viên không
+",club
+"- trong công ty có các team thể thao điện tử không
+",club
+"- Ngoài giờ làm vệc có hoạt động thể dục thể thao không
+",club
+"- Anh chị có tạo club riêng không
+",club
+"- trong công ty có câu lạc bộ esport không
+",club
+"- hoạt động thể thao trong công ty như thế nào
+",club
+"- Công ty có club dành cho người tập gym không
+",club
+"- SVMC có những hoạt động thể dục thể thao nào
+",club
+"- Hoạt động thể dục thể thao thì sao
+",club
+"- ad có chơi lol không
+",club
+"- Công ty có những hoạt động thể dục thể thao nào
+",club
+"- trong công ty có câu lạc bộ đá bóng không
+",club
+"- Công ty có câu lạc bộ nhảy không
+",club
+"- công ty có hỗ trợ gì cho các team thể thao điện tử
+",club
+"- Vào công ty có tạo club được không
+",club
+"- Có hoạt động thể dục thể thao không
+",club
+"- các bộ môn thể thao nào có trong công ty
+",club
+"- Công ty có club nào không
+",club
+"- SVMC có các hoạt động thể dục thể thao không
+",club
+"- Ad cho hỏi nhân viên mới vào công ty được đào tạo những gì
+",condition
+"- Các chính sách đào tạo nhân viên mới có những gì
+",condition
+"- nghe nói samsung chỉ toàn tester ạ
+",condition
+"- Svmc có đào tạo trước không
+",condition
+"- trong công ty có được học AI không
+",condition
+"- Có bộ phận nào làm ai không
+",condition
+"- Điều kiện phát triển như nào
+",condition
+"- trong đó có dạy cả tiếng nhật ạ
+",condition
+"- samsung toàn làm web ạ
+",condition
+"- Vào svmc có thể phát triển được không
+",condition
+"- Em muốn theo web thì có phát triển được không
+",condition
+"- Các chính sách đào tạo nhân viên của công ty thì sao
+",condition
+"- làm sao để tôi được đi hàn
+",condition
+"- Học ai vào làm ở công ty có được không
+",condition
+"- Làm ở đây sau có bị tù người không
+",condition
+"- SVMC có những chương trình đào tạo nào cho nhân viên mới
+",condition
+- trong samsung có dạy nhân viên cách giao tiếp không,condition
+"- trong công ty được dạy những gì
+",condition
+"- Vào Samsung nhàn lắm phải không
+",condition
+"- Có những chương trình đào tạo nào cho nhân viên mới
+",condition
+"- công ty có đào tạo từ xa cho nhân viên không
+",condition
+"- làm trong đó học được nhiều không 
+",condition
+"- Thấy bảo vào Samsung nhàn lắm à
+",condition
+"- Các chính sách đào tạo nhân viên của công ty có gì đăc sắc
+",condition
+"- Svmc có phát triển kỹ năng mềm không
+",condition
+"- Em muốn theo ai thì có làm được không
+",condition
+"- Công ty có đào tạo nhân viên không
+",condition
+"- các chính sách đào tạo công ty như nào
+",condition
+"- Tôi được đào tạo gì sau khi vào công ty
+",condition
+"- Sau khi vào công ty được đào tạo những gì
+",condition
+"- Vào công ty có phát triển được không
+",condition
+"- Svmc có hoạt động ngoại khóa không
+",condition
+"- Có phải công ty chỉ làm android không
+",condition
+"- trong đó có được dạy làm sếp không
+",condition
+"- Ad cho xin chính sách đào tạo nhân viên sau khi vào công ty
+",condition
+"- samsung đào tạo kĩ năng mềm gì ạ
+",condition
+"- Công ty có làm web không
+",condition
+"- Có các chương trình đào tạo cho nhân viên mới không
+",condition
+"- SVMC có những chính sách đào tạo nhân viên mới nào
+",condition
+"- nghe nói samsung được đi hàn học ạ
+",condition
+"- Công ty có dạy cho nhân viên mới không
+",condition
+"- nghe nói công ty có dạy tiếng hàn cho nhân viên hả
+",condition
+"- Vào svmc có phát triển được không
+",condition
+"- Em chưa biết android vào có được đào tạo không
+",condition
+"- Các chính sách đào tạo nhân viên của công ty có gì hot không
+",condition
+"- Ad cho xin các thông tin về đào tạo nhân viên mới
+",condition
+"- có cơ hội đi nước ngoài đào tạo không
+",condition
+"- Các chính sách đào tạo nhân viên của công ty như thế nào
+",condition
+"- các loại chứng chỉ nào cần khi vào công ty
+",degree
+"- Công ty có bắt buộc phải có bằng cấp tiếng anh không
+",degree
+"- Tôi có bằng TOPIK có được hơn gì không
+",degree
+"- Công ty có yêu cầu bằng cấp tiếng anh không
+",degree
+- bằng cấp có thực sự quan trong trong công ty,degree
+"- Lợi thế của việc có bằng tiếng anh
+",degree
+"- Bằng cấp tiếng anh có bắt buộc khi vào công ty không
+",degree
+"- Không có bằng cấp tiếng anh có được không
+",degree
+"- Có bằng tiến sĩ có được hơn gì không
+",degree
+"- em mới thi xong ILEST và đạt 6.0 ạ
+",degree
+"- công ty có thêm lương khi có chứng chỉ ngoại ngữ không
+",degree
+"- Để vào công ty thì có cần bằng cấp tiếng anh không
+",degree
+"- Ưu tiên gì khi tôi có bằng 
+",degree
+"- Tôi có bằng có được ưu tiên gì khi vào công ty không
+",degree
+"- công ty yêu cầu trình đồ ngoại ngữ như nào
+",degree
+"- Có bằng khi vào công ty có được ưu tiên gì không
+",degree
+"- Bằng cấp tiếng anh có quan trọng khi xin vào công ty không
+",degree
+"- Tôi chưa có bằng cấp tiếng anh thì sao hả ad
+",degree
+"- Không có bằng cấp tiếng anh có ảnh hưởng gì không
+",degree
+"- chưa có tiếng anh có được không
+",degree
+"- điểm toiec cần bao nhiêu
+",degree
+"- Tôi có thêm bằng ILEST có được ưu tiên hơn cái gì không
+",degree
+"- có cần bằng toiec không
+",degree
+"- Công ty có yêu cần bằng X không
+",degree
+"- em mới đạt 550 toiec có được không ạ
+",degree
+"- Bằng  có cần thiết khi vào công ty không
+",degree
+"- Tôi có bằng TOIEC có được ưu tiên gì không
+",degree
+"- 450 có được không
+",degree
+"- Tôi có thêm bằng HSK có được ưu tiên gì không
+",degree
+"- Để vào công ty thì bằng cấp tiếng anh có bắt buộc không
+",degree
+"- - Có yêu cầu bằng cấp tiếng anh không
+",degree
+"- Bằng cấp tiếng anh có cần thiết khi xin vào công ty không
+",degree
+"- Nếu xin vào công ty mà chưa có bằng cấp tiếng anh thì sao
+",degree
+"- tôi có chứng chỉ ngoại ngữ thì có được thêm lương không
+",degree
+"- tôi sẽ được hơn gì khi có bằng thạc sỹ
+",degree
+"- Tôi có bằng có được ưu tiên gì không hả ad
+",degree
+"- Không có bằng cấp tiếng anh thì có được vào công ty không
+",degree
+"- Số lượng người đỗ có đông không
+",employee
+"- Hằng năm tuyển bao nhiêu đợt
+",employee
+"- SVMC có bao nhiêu đợt tuyển trong 1 năm
+",employee
+"- Số đợt tuyển trong 1 năm có nhiều không
+",employee
+"- đợt tuyển dụng tiếp theo vào tháng mấy
+",employee
+"- Số lượng người trúng tuyển có đông không
+",employee
+"- Tuyển bao nhiêu người
+",employee
+"- Mỗi năm có tổng cộng mấy đợt tuyển
+",employee
+"- Công ty có bao nhiêu đợt tuyển mỗi năm
+",employee
+"- Ad cho xin thông tin lượng người trúng tuyển mỗi năm
+",employee
+"- Số lượng tuyển trong mỗi năm là bao nhiêu
+",employee
+"- Mỗi năm có mấy đợt tuyển
+",employee
+"- Chỉ tiêu tuyển thế nào
+",employee
+"- Số người trúng tuyển vào SVMC là bao nhiêu
+",employee
+"- Chỉ tiêu tuyển có nhiều không
+",employee
+"- Mỗi đợt có bao nhiều người đỗ
+",employee
+"- Cả năm tuyển bao nhiêu người
+",employee
+- tuyển nhân viên mới tiếp theo khi nào ạ,employee
+"- Số lượng tuyển như thế nào
+",employee
+"- Ad cho xin chỉ tiêu tuyển nhân viên mỗi năm
+",employee
+"- Lượng người trúng tuyển mỗi năm là bao nhiêu
+",employee
+"- SVMC có nhiều đợt tuyển trong 1 năm không
+",employee
+"- Mỗi năm tuyển mấy đợt
+",employee
+"- Số lượng người tuyển trong mỗi năm
+",employee
+"- Ad cho xin số đợt tuyển của công ty
+",employee
+"- Có bao nhiêu đợt tuyển trong 1 năm
+",employee
+"- Mỗi năm có bao nhiêu đợt tuyển
+",employee
+"- Công ty có nhiều đợt tuyển trong 1 năm không
+",employee
+"- Lượng người trúng tuyển vào SVMC có đông không
+",employee
+"- Mỗi năm tuyển bao nhiêu người
+",employee
+"- Một năm tuyển bao nhiêu người
+",employee
+"- Có tổng cộng bao nhiêu đợt tuyển trong 1 năm
+",employee
+"- Số lượng tuyển bao nhiêu
+",employee
+"- tháng 2 có tuyển không
+",employee
+"- Một năm bao nhiêu người đỗ
+",employee
+"- Lượng người trúng tuyển vào công ty có đông không
+",employee
+"- Một năm bao nhiêu người trúng tuyển
+",employee
+"- Chỉ tiêu tuyển có đông không
+",employee
+"- Có nhiều đợt tuyển trong 1 năm không
+",employee
+"- Ad cho xin số đợt tuyển trong 1 năm
+",employee
+"- Có mấy đợt tuyển trong 1 năm
+",employee
+"- SVMC có mấy đợt tuyển trong 1 năm
+",employee
+"- Hằng năm có bao nhiêu đợt tuyển
+",employee
+"- Mỗi năm có nhiều đợt tuyển không
+",employee
+"- Tuyển có đông không
+",employee
+"- Mỗi năm có tổng cộng tuyển mấy đợt
+",employee
+"- Công ty có mấy đợt tuyển mỗi năm
+",employee
+"- Mỗi năm tuyển có đông không
+",employee
+"- Công ty có yêu cầu sinh viên có kinh nghiệm không
+",exp
+"- Em chưa bao giờ làm dự án thực tế
+",exp
+"- Em đã có kinh nghiệm 2 năm cho công ty A
+",exp
+"- Kinh nghiệm có quan trọng với sinh viên không?
+",exp
+"- E đã có kinh nghiệm 2 năm trước đó
+",exp
+"- Công ty có nhận người chưa có kinh nghiệp không
+",exp
+"- Em đã từng làm vài project trên trường
+",exp
+"- Trước kia tôi từng làm với .net, mysql
+",exp
+"- Kinh nghiệm bao lâu để được làm việc ở công ty
+",exp
+"- Tôi chưa có kinh nghiệp có được không
+",exp
+"- Với sinh viên chưa có kinh nghiệp công ty có yêu cầu gì không
+",exp
+"- Công ty có yêu cầu sinh viên có kinh nghiệm không?
+",exp
+"- E chưa có kinh nghiệm
+",exp
+"- Tôi từng làm việc với Android, PHP
+",exp
+"- Kinh nghiệm của em hiện tại là 0
+",exp
+"- Các dự án tôi đã làm gồm: Android, Ios
+",exp
+"- vị trí này có cần kinh nghiệm không
+",exp
+"- Kinh nghiệm có quan trọng không
+",exp
+"- E chưa bao giờ làm dự án thực tế
+",exp
+"- Tôi chưa làm dự án thực tế bao giờ
+",exp
+"- kinh nghiệm bao lâu được tuyển vào vị trí này
+",exp
+"- E mới tốt nghiệp và chưa có kinh nghiệm
+",exp
+"- Em mới tốt nghiệp nên chưa có kinh nghiệm
+",exp
+"- Có kinh nghiệp có được ưu tiên gì không
+",exp
+"- Em chưa có kinh nghiệm có được không
+",exp
+"- Công ty có nhận sinh viên chưa có kinh nghiệp không
+",exp
+"- có kinh nghiệm có được thêm lương không
+",exp
+"- Tôi đã có kinh nghiệm vị trí tương tự trước đó
+",exp
+"- mức lương theo kinh nghiệm thế nào
+",exp
+"- Tôi mới ra trường
+",exp
+"- Công ty yêu cầu kinh nghiệm gì
+",exp
+"- Tôi đã có kinh nghiệm 2 năm tại công ty Misa
+",exp
+"- Tôi chưa có kinh nghiệm
+",exp
+"- Tôi chưa có kinh nghiệm có được tuyển không
+",exp
+"- E từng làm một vài dự án với các thầy
+",exp
+"- Công ty có chuyên gia về trí tuệ nhân tạo không
+",fields
+"- Ad cho xin thông tin về các mảng có trong công ty
+",fields
+"- bây giờ công ty có làm với bigdata không
+",fields
+"- công ty có làm về các sản phẩm về web sử dụng go-lang không
+",fields
+"- team thuật toán trong samsung hiện làm ở đâu
+",fields
+"- nghe nói công ty có mảng mạng hả
+",fields
+"- Trong công ty có những lĩnh vực nào
+",fields
+"- Trong công ty có nhiều phòng ban không
+",fields
+"- trong công ty bây giờ nghiên cứu gì
+",fields
+- Các dự án trong công ty có sử dụng công nghệ nào,fields
+"- Những lĩnh vực mà công ty đang có
+",fields
+"- Tôi muốn làm về machine learning 
+",fields
+"- những bộ phần nào làm việc liên quan đến AI
+",fields
+"- các bộ phận nào trong công ty
+",fields
+"- có những bộ phận non-software được không
+",fields
+"- Ad cho xin thông tin về các phòng ban trong công ty
+",fields
+"- trong công ty có được làm AI không
+",fields
+"- Các lĩnh vực có trong công ty
+",fields
+"- Các mảng có trong công ty
+",fields
+"- muốn lập trình di động thì vào làm những bộ phận nào
+",fields
+"- Trong công ty có những phòng ban nào
+",fields
+"- trong công ty có lập trình mobile không
+",fields
+"- Trong công ty có những mảng nào
+",fields
+"- Những phòng ban mà công ty đang phát triển là gì
+",fields
+"- Những lĩnh vực mà công ty đang phát triển là gì
+",fields
+"- công ty có còn tuyển vị trí Java dev nữa không
+",fields
+"- bên công ty có những bộ phận nào
+",fields
+"- Những phòng ban mà công ty đang có
+",fields
+"- công ty còn tuyển thực tập sinh AI không
+",fields
+"- làm sao để làm việc trong team android
+",fields
+"- bên công ty có làm về front-end không
+",fields
+"- trong công ty có những part nào
+",fields
+"- công ty có làm việc với node js không
+",fields
+"- Những mảng mà công ty đang có
+",fields
+"- Những mảng mà công ty đang phát triển là gì
+",fields
+"- trong công ty có team nghiên cứu AI không
+",fields
+"- công ty một nhân viên có được làm nhiều mảng không
+",fields
+"- Điểm GPA có quan trong khi xin vào công ty không
+",GPA
+"-Sinh viên chưa ra trường thì điểm GPA là bao nhiêu
+",GPA
+"- Muốn vào công ty thì đểm GPA tối thiểu là bao nhiêu
+",GPA
+"-Vị trí thực tập sinh có cần điểm GPA không
+",GPA
+"-Lương có tính theo GPA không
+",GPA
+"- Điểm GPA là bao nhiêu mới có thể vào công ty
+",GPA
+"-Có phân biệt GPA cao và thấp khi vào công ty không
+",GPA
+"- Để vào SVMC điểm GPA cần bao nhiêu
+",GPA
+"- Công ty có đòi hỏi điểm GPA không
+",GPA
+"- Điểm GPA thấp thì có được vào không
+",GPA
+"- Điểm GPA của tôi bằng X có vào được công ty không
+",GPA
+"- Điểm GPA tối thiểu là bao nhiêu để xin vào công ty
+",GPA
+"-Điểm GPA có ảnh hưởng như thế nào đến lương
+",GPA
+"-Có kinh nghiệm rồi có yêu cầu GPA không
+",GPA
+"- Công ty yêu cầu điểm GPA có cao không
+",GPA
+-Các công việc khác nhau có yêu cầu điểm GPA khác nhau không,GPA
+"-Công ty chấp nhận điểm GPA từ bao nhiêu
+",GPA
+"-Lương có phụ thuộc vào GPA không
+",GPA
+"-Vị trí thực tập sinh thì điểm GPA là bao nhiêu
+",GPA
+"-Sinh viên chưa ra trường có yêu cầu điểm GPA không
+",GPA
+"-Công ty có quan trọng điểm trung bình không
+",GPA
+"- GPA yêu cầu bao nhiêu
+",GPA
+"- Điểm GPA của tôi không quá cao có vào được công ty không
+",GPA
+"-Điểm trung bình đối với các trường khác nhau có khác nhau không
+",GPA
+"- Điểm GPA có quan trọng khi xin vào công ty không
+",GPA
+"-Điểm GPA từ bao nhiêu trở lên là được vào công ty
+",GPA
+"-Điểm GPA cao có được ưu tiên gì không
+",GPA
+"- Điểm trung bình cao vào công ty có lợi hơn gì không
+",GPA
+"- Tôi cần điểm GPA bao nhiêu để có thể vào công ty
+",GPA
+"-Tôi đã có kinh nghiệm rồi thì có cần điểm GPA không
+",GPA
+"-Điểm trung bình quan trọng như thế nào khi vào công ty
+",GPA
+"- Tôi muốn vào công ty thì điểm GPA cần bao nhiêu
+",GPA
+"-Điểm GPA tối thiểu là bao nhiêu để được chấp nhận
+",GPA
+"-Điểm GPA có ảnh hưởng đến lương không
+",GPA
+"-Điểm GPA cao có được lương cao hơn không
+",GPA
+"-Công ty có quan trọng điểm GPA không
+",GPA
+"-Điểm GPA bao nhiêu là được chấp nhận
+",GPA
+"- Điểm GPA=x có vào được công ty không
+",GPA
+"-Điểm GPA quan trọng như thế nào đối với công ty
+",GPA
+"- Công ty yêu cầu điểm GPA là bao nhiêu
+",GPA
+"- Công ty có bắt buộc điểm trung bình không
+",GPA
+"- Để vào công ty thì điểm GPA thế nào
+",GPA
+"- Điểm trung bình có bắt buộc không
+",GPA
+"- Điểm trung bình bao nhiêu thì đủ vào công ty
+",GPA
+"- Công ty có đưa ra yêu cầu gì về điểm GPA
+",GPA
+"- Ad cho xin thông tin về điểm GPA khi xin vào công ty
+",GPA
+"-Vị trí thực tập sinh có yêu cầu điểm GPA không
+",GPA
+"- Để vào công ty cần điểm GPA là bao nhiêu
+",GPA
+"- GPA bao nhiêu thì đủ
+",GPA
+"-Tôi đã có kinh nghiệm rồi thì điểm GPA có quan trọng không
+",GPA
+"-Đối với sinh viên chưa ra trường thì điểm GPA tối thiểu là bao nhiêu
+",GPA
+"- Điểm trung bình thấp thì sao
+",GPA
+"- Lịch nghỉ thai sản thế nào
+",health
+- Chế độ bảo hiểm lao động mà công ty có,health
+"- bảo hiểm y tế cho nhân viên thế nào
+",health
+"- Chính sách thai sản của công ty được nghỉ bao lâu
+",health
+"- Chính sách thai sản của công ty như thế nào
+",health
+"- nhân viên có được tham gia bảo hiểm nhân thọ không
+",health
+"- bảo hiểm thân thể công ty có hỗ trợ cho nhân viên không
+",health
+"- chính sách bệnh tật cho nhân viên của công ty có hỗ trợ gì không
+",health
+"- các chính sách hỗ trợ của công ty cho nhân viên bị bệnh tật
+",health
+"- Chính sách khám sức khỏe của công ty có gì đặc sắc không
+",health
+"- Chính sách thai sản của công ty thì sao
+",health
+"- Hàng năm nhân viên có được khám sức khỏe không hả ad
+",health
+"- Công ty có tổ chức khám sức khỏe hàng năm cho nhân viên không
+",health
+"- phụ nữ sinh con được nghỉ bao tháng 
+",health
+"- công ty hỗ trợ người tai nạn lao động không
+",health
+"- Chính sách thai sản thì sao
+",health
+"- Ad cho xin chính sách khám sức khỏe của công ty
+",health
+"- Công ty có chính sách thai sản không
+",health
+"- Chính sách khám sức khỏe của công ty như thế nào
+",health
+"- Chính sách thai sản của công ty so với các công ty khác thì sao
+",health
+"- Chính sách thai sản của công ty như nào
+",health
+"- SVMC có chính sách khám sức khỏe hàng năm không
+",health
+"- nhân viên ốm đau công ty hỗ trợ thế nào
+",health
+"- công ty có hỗ trợ độc hại sức khỏe cho nhân viên lập trình không
+",health
+"- vào công ty có cần đi kiểm tra sức khỏe không
+",health
+"- Chế độ bảo hiểm lao động của công ty thì sao
+",health
+"- SVMC hàng năm có cho nhân viên đi khám sức khỏe không
+",health
+"- Nhân viên trong công ty có được khám sức khỏe hàng năm không
+",health
+"- Chính sách thai sản của công ty thế nào hả ad
+",health
+"- bảo hiểm thân thể công ty trả không
+",health
+"- Nhân viên công ty có được hưởng chế độ bảo hiểm lao động không
+",health
+"- Chế độ bảo hiểm lao động trong công ty thế nào
+",health
+"- Chế độ bảo hiểm lao động của công ty như thế nào
+",health
+"- Chế độ bảo hiểm lao động của công ty có gì đặc sắc không
+",health
+"- Lịch nghỉ thai sản được nghỉ nhiều hay ít
+",health
+"- Công ty có chế độ bảo hiểm lao động cho nhân viên không
+",health
+"- Công ty có chánh sách khám sức khỏe hàng năm không
+",health
+"- Công ty có những chế độ bảo hiểm lao động nào
+",health
+"- công ty tai nạn lao động trong công ty thì công ty sẽ làm gì?
+",health
+"- Chính sách thai sản của công ty thế nào
+",health
+"- Ad cho xin chính sách thai sản của công ty
+",health
+"- Công ty có chế độ bảo hiểm lao động không
+",health
+"- Chính sách khám sức khỏe của công ty thế nào
+",health
+"- khám sức khỏe trong công ty có mất phí không
+",health
+"- mỗi năm khám sức khỏe bao lần
+",health
+"- Ad cho xin thông tin chính sách thai sản
+",health
+"- Công ty có chính sách khám sức khỏe hàng năm cho nhân viên không
+",health
+"- công ty trả tiền bảo hiểm y tế không
+",health
+"- Chế độ bảo hiểm lao động của công ty so với các công ty khác thì sao
+",health
+"- Xin thông tin về chế độ bảo hiểm lao động
+",health
+"- Chính sách khám sức khỏe của công ty thì sao
+",health
+"- Tôi có được khám sức khỏe hàng năm không
+",health
+"- có khám sức khỏe hàng tháng không
+",health
+"- Làm nhân viên SVMC có được khám sức khỏe hàng năm không
+",health
+"- Chào bạn
+",hellow
+"- Bạn cho mình hỏi cái này với
+",hellow
+"- Bạn ơi cho mình hỏi chút được không
+",hellow
+"- chào bot
+",hellow
+"- Bot ơi
+",hellow
+"- Đang làm gì đấy
+",hellow
+"- xin chào
+",hellow
+"- Hú
+",hellow
+"- Chào em yêu
+",hellow
+"- 2
+",hellow
+"- Bot à
+",hellow
+"- Bạn ơi cho mình hỏi
+",hellow
+"- Em gì ơi
+",hellow
+"- Bạn ơi mình có thắc mắc này ạ
+",hellow
+"- Hú
+",hellow
+"- Bot ảo tưởng ơi
+",hellow
+"- Hi
+",hellow
+"- Helo
+",hellow
+"- Bạn cho mình hỏi xíu được không
+",hellow
+"- Chào em yêu
+",hellow
+"- Bạn cho mình hỏi cái này với
+",hellow
+"- Ad cho mình hỏi chút được không
+",hellow
+"- Bot à
+",hellow
+"- He lo
+",hellow
+"- Hello
+",hellow
+"- Chào
+",hellow
+"- Bạn ơi cho mình hỏi
+",hellow
+"- ê
+",hellow
+"- Admin cho mình hỏi chút được không
+",hellow
+"- He lo
+",hellow
+"- Bot ơi
+",hellow
+"- Bot ảo tưởng ơi
+",hellow
+"- Bạn gì ơi
+",hellow
+"- Chào bạn
+",hellow
+"- Bot ngu
+",hellow
+"- cho mình hỏi chút được không
+",hellow
+"- Ê em yêu
+",hellow
+"- 2
+",hellow
+"- xin chào
+",hellow
+"- ê
+",hellow
+"- Ê em yêu
+",hellow
+"- Bạn ơi giúp mình được không
+",hellow
+"- Hey
+",hellow
+"- Bạn ơi giúp mình được không
+",hellow
+"- Bạn ơi
+",hellow
+"- Bot ngu
+",hellow
+"- Chào
+",hellow
+"- Bạn ơi mình hỏi cái này với
+",hellow
+"- Em gì ơi
+",hellow
+"- chào cậu
+",hellow
+"- Hello
+",hellow
+"- Bạn ơi cho mình hỏi chút được không
+",hellow
+"- Hi
+",hellow
+"- Hey
+",hellow
+"- ê bot
+",hellow
+"- ê bot
+",hellow
+"- Bạn gì ơi
+",hellow
+"- Bạn ơi
+",hellow
+"- Xin lịch nghỉ lễ
+",holiday
+"- Nghỉ lễ của công ty như nào
+",holiday
+"- Công ty có những chính sách nghỉ lễ gì
+",holiday
+"- Chính sách nghỉ lễ của công ty thế nào hả ad
+",holiday
+"- Lịch nghỉ lễ của công ty thế nào
+",holiday
+"- 2/9 có được nghỉ không
+",holiday
+"- Xin chính sách nghỉ lễ
+",holiday
+"- Chính sách nghỉ lễ của công ty thì sao
+",holiday
+"- Chính sách nghỉ lễ của công ty có gì đặc sắc không
+",holiday
+"- Công ty có lịch nghỉ lễ không
+",holiday
+"- Những ngày lễ được nghỉ nhiều hay ít
+",holiday
+"- Lịch nghỉ lễ thế nào
+",holiday
+"- Công ty có chính sách nghỉ lễ không
+",holiday
+"- Lịch nghỉ lễ có không
+",holiday
+"- Lịch nghỉ lễ của công ty có giống nhà Nước không
+",holiday
+"- hằng năm công ty có cho nhân viên đi du lịch không
+",holiday
+"- Những ngày lễ có được nghỉ nhiều không
+",holiday
+"- Lịch nghỉ lễ so với các công ty khác thế nào
+",holiday
+"- Lịch nghỉ lễ của công ty có giống của công chức Nhà nước không
+",holiday
+"- ngoài lịch nghỉ truyển thống công ty còn lịch nghỉ nào khác không
+",holiday
+"- Lịch nghỉ lễ thì sao
+",holiday
+"- Chính sách nghỉ lễ của công ty như thế nào
+",holiday
+"- Chính sách nghỉ lễ của công ty thế nào
+",holiday
+"- Công ty có cho nghỉ lễ nhiều không
+",holiday
+"- Công ty cho nghỉ lễ thế nào
+",holiday
+"- Lịch nghỉ lễ của công ty thế nào
+",holiday
+"- Lịch nghỉ lễ của nhân viên
+",holiday
+"- Lịch nghỉ lễ của công ty
+",holiday
+"- Các ngày lễ tết có được nghỉ nhiều không
+",holiday
+"- Ad cho xin thông tin lịch nghỉ lễ
+",holiday
+"- công ty có tổ chức đi chơi cho nhân viên hằng năm không
+",holiday
+"- Ngoài các ngày lễ tết lớn thì có những ngày nào được nghỉ
+",holiday
+"- Công ty có lịch nghỉ lễ không
+",holiday
+- trung thu có được nghỉ không,holiday
+"- Các ngày lễ tết được nghỉ bao nhiêu
+",holiday
+"- Tôi có phải mang lap đi làm không
+",laptop
+"- Công ty cấp máy tính riêng hay phải tự mang đi
+",laptop
+"- Tôi có được cấp laptop khi làm việc không
+",laptop
+"- Hình như công ty cấp laptop riêng cho nhân viên à
+",laptop
+"- Tôi làm bằng máy tính của tôi được không
+",laptop
+"- Nhân viên làm việc bằng máy tính công ty hay máy tính cá nhân
+",laptop
+"- Phải tự mang laptop cá nhân đi à
+",laptop
+"- Có máy tính riêng để làm việc không
+",laptop
+"- Công ty cấp sẵn máy tính cho nhân viên chứ
+",laptop
+"- Máy tính là công ty cấp sẵn phải không
+",laptop
+"- Công ty có hỗ trợ máy tính riêng cho nhân viên không
+",laptop
+"- Nghe bảo công ty cấp máy tính riêng à
+",laptop
+"- Công ty có cấp sẵn máy tính cho nhân viên không
+",laptop
+"- Hình như không cấp laptop riêng đúng không
+",laptop
+"- Nhân viên phải tự mang laptop à
+",laptop
+"- Có phải công ty cấp laptop cho nhân viên không
+",laptop
+"- Ai cũng được cấp laptop riêng à
+",laptop
+"- Tôi có cần mang máy tính đi làm không
+",laptop
+"- Nghe bảo phải tự mang máy tính cá nhân đi à
+",laptop
+"- Công ty có cấp laptop hay máy cây riêng cho nhân viên không
+",laptop
+"- Nhân viên làm việc bằng máy của mình hay gì
+",laptop
+"- Không có laptop công ty có cấp không
+",laptop
+"- Sếp mới được cấp máy tính riêng à
+",laptop
+"- Máy tính được cấp sẵn chứ
+",laptop
+"- Có bắt buộc phải có máy tính cá nhân không
+",laptop
+"- Nghe bảo không cấp máy tính riêng cho nhân viên à
+",laptop
+"- Có được cấp laptop riêng không
+",laptop
+"- Phải làm gì thì được cấp laptop cá nhân
+",laptop
+"- Nhân viên có được cấp laptop không
+",laptop
+"- Tôi có phải mang máy tính đi làm không
+",laptop
+"- Không có laptop cá nhân thì sao
+",laptop
+"- Làm việc bằng máy tính công ty hay máy tính cá nhân
+",laptop
+"- Tôi có cần mang laptop đi làm không
+",laptop
+"- Công ty có yêu cầu phải có laptop cá nhân không
+",laptop
+"- Công ty có yêu cầu tự mang laptop không
+",laptop
+"- Nhân viên được cấp laptop à
+",laptop
+"- Công ty có cấp sẵn laptop cho nhân viên không
+",laptop
+- Ngoài được cấp laoptop thì có được cấp thêm mấy cây không,laptop
+"- Tôi mang máy tính của tôi đi làm được không
+",laptop
+"- Nhân viên không được cấp laptop à
+",laptop
+"-  Thưởng tết được mấy tháng lương
+",laudatory
+"- Công ty có thưởng nhiều không
+",laudatory
+"-  Thưởng tết được nhiều không
+",laudatory
+"-  Công ty có chính sách khen thưởng như nào
+",laudatory
+"-  Đi làm đầy đủ có được tăng lương không
+",laudatory
+"- các loại phụ cấp trong samsung là những loại nào
+",laudatory
+"- Chính sách khen thưởng của công ty như thế nào
+",laudatory
+"-  Nghỉ lẽ được thưởng ra sao
+",laudatory
+"-  Làm lâu có được tăng lương không
+",laudatory
+"-  Công ty có phụ cấp gì không
+",laudatory
+"-  Quốc tế lao động có được thưởng không
+",laudatory
+"-  Svmc được thưởng nhiều không
+",laudatory
+- làm sao để nhân được khen thưởng trong công ty,laudatory
+"-  Có phải Samsung có 19 tháng lương không
+",laudatory
+"-  Thâm niên cao thì được thưởng không
+",laudatory
+"-  Thấy bảo Samsung thưởng đến 19 tháng lương à
+",laudatory
+"- nhân viên xuất sắc có được thưởng thêm không
+",laudatory
+"- các loại khen thưởng trong công ty là những loại nào
+",laudatory
+"- quốc khánh và tết lao động công ty thưởng nhân viên không
+",laudatory
+"-  Samsung thưởng nhiều lắm phải không
+",laudatory
+"- nghe nói samsung có chính sách thưởng cho nhân viên thêm 6 tháng lương ạ
+",laudatory
+"-  Làm lâu năm có được lương cao không
+",laudatory
+"- một năm có bao nhiêu dịp được thưởng 
+",laudatory
+"- bao nhiêu lâu được thưởng một lần
+",laudatory
+"- có lương tháng 13 không
+",laudatory
+"-  Quốc khánh có được thưởng không
+",laudatory
+"-  Làm sao để tăng lương
+",laudatory
+"-  Svmc có phụ cấp gì không
+",laudatory
+"-  Công ty trả phụ cấp như nào
+",laudatory
+"- Chính sách khen thưởng của công ty như nào
+",laudatory
+"- số tháng lương mà công ty thưởng cho nhân viên là bao nhiêu tháng?
+",laudatory
+"- công ty có thưởng lương khi thăng cấp không
+",laudatory
+"-  Công ty có thưởng ngày quốc khánh không
+",laudatory
+"- một năm được thưởng tối đa bao ngày lương
+",laudatory
+"-  Svmc có thưởng quốc khánh không
+",laudatory
+"-  Tết có được thưởng không
+",laudatory
+"-  01/05 được thưởng không
+",laudatory
+"-  Thâm niên cao thì thưởng nhiều hơn không
+",laudatory
+"- mỗi tháng được nghỉ bao nhiêu ngày có lương
+",laudatory
+"- sinh viên năm nhất có được vào làm không
+",old
+"- 16 tuổi có được vào làm không
+",old
+"- Già rồi có xin việc được không
+",old
+"- tôi năm nay đã về hưu, nhưng muốn ứng tuyển được không
+",old
+"- Svmc có yêu cầu gì vể tuổi không
+",old
+"- có độ tuổi ưu tiền làm việc không
+",old
+"- có bị giới hạn tuổi làm việc không
+",old
+"- công ty có tuyển thần đồng độ tuổi vị thành niên không
+",old
+"- độ tuổi ưu tiên trong tuyển dụng là bao nhiêu
+",old
+"- Tôi 35 tuổi có xin việc được không
+",old
+"- độ tuổi ưu tiên vào vị trí này là bao nhiêu
+",old
+"- Độ tuổi nào phù hợp vào svmc
+",old
+"- Bao nhiêu tuổi thì được vào làm
+",old
+"- ngoài độ tuổi lao động thì có tuyển không
+",old
+"- nghe nói công ty không tuyển người quá 30 tuổi đúng không ạ
+",old
+"- Tôi 35 tuổi có ứng tuyển được không
+",old
+"- công ty có tuyển người dưới độ tuổi lao động không
+",old
+"- Vào svmc tuổi như nào thì phù hợp
+",old
+"- Độ tuổi ứng tuyển là bao nhiêu
+",old
+"- tôi năm nay 12 tuổi và tôi muốn vào công ty làm việc có được không
+",old
+"- công việc này phù hợp với người độ tuổi là bao nhiêu
+",old
+"- Độ tuổi được tuyển dụng là bao nhiêu
+",old
+"- giới hạn độ tuổi khi tuyển dụng vào vị trí này là bao nhiêu
+",old
+"- hiện tại tôi là giáo sư và 55 tuổi công ty có tuyển tôi không
+",old
+"- Tôi 17 tuổi có ứng tuyển được không
+",old
+"- độ tuổi tuyển dụng là bao nhiêu
+",old
+"- công ty có tuyển tuổi trung niên không
+",old
+"- Tôi lớn tuổi rồi có ứng tuyển được không
+",old
+"- năm nay tôi được 40 xuân xanh tôi còn có thể ứng tuyển vào vị trí Java Developer không
+",old
+"- tuổi tôi nay có phù hợp với công việc ở đó không
+",old
+"- svmc này tuyển người độ tuổi từ bao nhiêu đến bao nhiêu
+",old
+"- Tôi muốn làm OT có được không
+",overtime
+"- Làm thêm giờ ở công ty được ưu đãi gì
+",overtime
+"- overtime lương thế nào
+",overtime
+"- Lương cho nhân viên overtime thế nào
+",overtime
+"- làm quá giờ có được không
+",overtime
+"- Công ty có làm quá giờ không
+",overtime
+"- Chính sách overtime ở công ty thế nào
+",overtime
+"- Cuối tuần có tăng ca không
+",overtime
+"- tôi muốn tăng lương làm thêm giờ có được không
+",overtime
+"- trong công ty ot thoải mái không
+",overtime
+"- Tôi muốn về nhà lúc 5h và không muốn OT
+",overtime
+"- Làm thêm giờ thì lương thế nào
+",overtime
+"- Làm thêm giờ vào thứ bảy không
+",overtime
+"- Thứ bảy và chủ nhật có cần đi làm không
+",overtime
+"- Tôi có phải đi làm thứ bảy chủ nhật không
+",overtime
+"- Công ty có yêu cầu nhân viên làm việc cuối tuần không
+",overtime
+"- Thứ bảy và chủ nhật có được nghỉ không
+",overtime
+- làm việc thêm vào cuối tuần có được không,overtime
+"- cuối tuần phải đi làm tăng ca à
+",overtime
+"- Có tăng ca vào cuối tuần không
+",overtime
+"- một tháng phải tăng ca bao nhiêu lần
+",overtime
+"- Chính sách lương overtime của công ty thế nào
+",overtime
+"- Công ty có làm tăng ca không
+",overtime
+"- chính sách làm thêm giờ tại công ty
+",overtime
+"- Chính sách OT ở công ty như nào
+",overtime
+"- OT thì trả lương thế nào
+",overtime
+"- Qúa giờ lương thế nào
+",overtime
+"- công ty có thường xuyên ot không
+",overtime
+"- Thời gian OT có thường xuyên không
+",overtime
+"- mỗi ngày làm thêm tối đa bao nhiêu ngày
+",overtime
+"- công ty có thường xuyên làm quá giờ không
+",overtime
+"- overtime lương thế nào
+",overtime
+"- overtime bao tiếng một ngày
+",overtime
+"- overtime thì trả lương thế nào
+",overtime
+"- nghỉ việc bệnh tật có cần làm việc bù giờ không
+",overtime
+"- OT tại công ty như thế nào
+",overtime
+"- Công ty có OT không
+",overtime
+"- nghe nói công ty ép nhân viên tăng ca à
+",overtime
+"- Cuối tuần có được nghỉ không
+",overtime
+"- tôi muốn ot vào thứ bảy được không
+",overtime
+"- còn vị trí partime nào không
+",partTime
+"- Ad cho xin lịch làm việc của công ty
+",partTime
+"- Có bắt buộc làm full time không
+",partTime
+"- Chính sách là việc part time của công ty thế nào
+",partTime
+"- Tôi muốn làm việc part time thì sao
+",partTime
+"- Vào công ty bắt buộc phải làm full time à
+",partTime
+"- Vào công ty có được làm part time không
+",partTime
+"- Muốn làm part time thì phải làm gì
+",partTime
+"- công việc partime có những việc gì
+",partTime
+"- Công ty có chính sách làm việc part time không hả ad
+",partTime
+"- Không thích làm việc full time được không
+",partTime
+"- Chỉ làm part time được không
+",partTime
+"- Công ty chỉ có làm việc full time thôi à
+",partTime
+"- Có thể làm việc part time không
+",partTime
+"- Tôi chỉ thích làm việc part time thôi thì sao
+",partTime
+"- em mãi tháng 1 năm sau mới ra trường nên bây giờ em có thể đi thực tập partime không
+",partTime
+"- công ty có tuyển làm việc bán thời gian không
+",partTime
+"- Tôi chỉ muốn làm part time được không
+",partTime
+"- Công ty không có làm việc part time à
+",partTime
+"- công ty chỉ tuyển fulltime hay cả partime
+",partTime
+"- em hiện tại không thể làm fulltime được vậy em có thể đi làm part không
+",partTime
+"- Có được làm việc part time không hả ad
+",partTime
+"- làm việc bán thời gian bao giờ một ngày
+",partTime
+"- Công ty có chính sách làm việc part time không
+",partTime
+"- những vị trí nào tuyển partime
+",partTime
+"- Không muốn làm full time thì sao
+",partTime
+"- SVMC có làm việc part time không
+",partTime
+"- Bắt buộc phải làm full time à
+",partTime
+"- Lịch làm việc của công ty thế nào
+",partTime
+"- Có chính sách làm việc part time không
+",partTime
+"- Tôi không muốn làm full time có được không
+",partTime
+"- công ty có những quy tắc nào khi xin thôi việc không
+",resignation
+"- tôi muốn thôi việc thì làm gì
+",resignation
+"- làm sao để hoàn thành đơn thôi việc
+",resignation
+"- Nếu muốn nghỉ cần báo trước mấy tháng
+",resignation
+"- Trước khi nghỉ hẳn cần báo trước mấy tháng
+",resignation
+"- nội quy xin nghỉ việc công ty là gì
+",resignation
+"- Không làm nữa thì báo cho ai
+",resignation
+"- Tôi muốn nghỉ hẳn thì báo trước bao lâu
+",resignation
+"- Không làm nữa thì phải báo trước không
+",resignation
+"- những hành vị bị đuổi việc
+",resignation
+"- nghe nói muốn nghỉ việc phải báo trước 1 tháng à
+",resignation
+"- thời gian tối thiểu hoàn thiện thủ tục xin việc
+",resignation
+"- Xin nghỉ làm trước bao lâu là được
+",resignation
+"- nghỉ việc đi còn gì nữa
+",resignation
+"- quy định xin thôi việc
+",resignation
+"- Nghỉ làm thì báo cho ai
+",resignation
+"- để xin nghỉ việc cần quy trình gì
+",resignation
+"- lí do xin nghỉ việc có cần ghi không
+",resignation
+"- xin thôi việc có cần báo không
+",resignation
+"- Tôi muốn nghỉ làm cần báo trước bao lâu
+",resignation
+"- Anh muốn nghỉ làm có cần báo trước không
+",resignation
+"- thôi việc cần báo cho ai, và báo trước không
+",resignation
+"- Báo trước bao lâu trước khi nghỉ làm
+",resignation
+"- Nghỉ làm có cần báo trước không
+",resignation
+"- chính sách với nhân viên khi nghỉ việc là gì
+",resignation
+"- tôi k muốn làm nữa thì tôi báo cho ai
+",resignation
+"- xin nghỉ việc báo trước bao lâu
+",resignation
+"- Trước khi nghỉ cần báo trước bao lâu
+",resignation
+"- Xin nghỉ làm trước bao lâu thì không bị trừ lương
+",resignation
+"- Tôi muốn nghỉ làm thì có cần báo trước không
+",resignation
+"- xin nghỉ việc có được lấy lại bảo hiểm không
+",resignation
+"- Nghỉ làm không báo trước có sao không
+",resignation
+"- những quy định đối với nhân viên khi muốn nghỉ việc
+",resignation
+"- Không làm nữa thì báo trước bao lâu
+",resignation
+"- thôi việc thì đi nộp cho nhân sự à
+",resignation
+"- trường hợp nào bị buộc thôi việc
+",resignation
+"- có dễ dàng xin nghỉ việc không
+",resignation
+"- Mức thu nhập trung bình ở công ty là bao nhiêu
+",salary
+"- lương khởi điểm cho lập trình viên android là bao nhiêu
+",salary
+"- một tháng lương trên 20 triệu thì cần gì
+",salary
+"- Mức lương như thế nào
+",salary
+"- lương của team nghiên cứu machine learning là bao nhiêu
+",salary
+"- lương công ty vào khoảng bao tiền
+",salary
+"- Lương thực tập sinh là bao nhiêu
+",salary
+"- mức lương tối đa nhân viên nhận được trong một năm là bao nhiêu
+",salary
+"- đi thực tập một tháng là bao nhiêu
+",salary
+"- Mức lương ban đầu là bao nhiêu
+",salary
+"- Thực tập sinh có được hỗ trợ lương không
+",salary
+"- lương của công ty bao nhiêu một tháng
+",salary
+"- Lương cho fresher là bao nhiêu
+",salary
+"- trong công ty có được tự offer lương không
+",salary
+"- Mức lương khởi điểm cho developer là bao nhiêu
+",salary
+"- thu nhập một năm lương có được 200 triệu không
+",salary
+"- Lương cho fresher là bao nhiêu?
+",salary
+"- Lương thực tập sinh là bao nhiêu?
+",salary
+"- Mức lương ở công ty thế nào
+",salary
+"- Mức lương khởi điểm cho dev là bao nhiêu
+",salary
+"- mức lương cho bộ phân non software là bao nhiêu
+",salary
+"- Vị trí lập trình viên web là bao nhiêu
+",salary
+"- Mức lương ở công ty thế nào?
+",salary
+"- lập trình viên lương bao nhiêu
+",salary
+"- tôi muốn mức lương 15 triệu thì cần gì
+",salary
+"- tôi muốn lương 2000 đô
+",salary
+"- lương tối thiểu trong công ty là bao nhiêu
+",salary
+"- làm AI lương có cao hơn bộ phân khác không
+",salary
+"- một năm thu nhập nhân viên là bao tiền
+",salary
+"- Vị trí lập trình viên Android lương bao nhiêu 
+",salary
+"- fulltime lương bao nhiêu
+",salary
+"- thực tập sinh có lương không
+",salary
+"- mỗi một người cần trải qua bao nhiêu vòng phỏng vấn
+",step
+"- thời gian phỏng vấn sẽ là bao lâu
+",step
+"- Phỏng vấn gồm những vòng gì
+",step
+"- Có phải kiểm tra gì trước khi phỏng vấn không
+",step
+"- Có phải test iq trước khi phỏng vấn không
+",step
+"- Tôi phải chuẩn bị những gì cho vòng phỏng vấn
+",step
+"- Xin quy trình phỏng vấn của công ty
+",step
+"- Tôi phải chuẩn bị những gì để pass vòng phỏng vấn
+",step
+"- trong phỏng vấn phải yêu cầu sử dụng tiếng anh ạ
+",step
+"- Phỏng vấn tôi phải làm những gì
+",step
+"- Vào công ty có cần qua vòng phỏng vấn không
+",step
+"- Thấy bảo công ty không có vòng phỏng vấn à
+",step
+"- Những thứ cần chuẩn bị cho vòng phỏng vấn
+",step
+- phỏng vấn có khó không ạ,step
+"- Nghe nói quy trình phỏng vấn của công ty gồm nhiều vòng
+",step
+"- Phỏng vấn gồm mấy bước
+",step
+"- Có cần test trước khi phỏng vấn không
+",step
+"- trong khi phỏng vấn có test gì không ạ
+",step
+"- Vòng phỏng vấn có khó không
+",step
+"- Để là nhân viên cần phải thi những gì
+",step
+"- Quy trình phỏng vấn của công ty như thế nào
+",step
+"- Quy trình để thành nhân viên chính thức như nào
+",step
+"- Quy trình phỏng vấn như nào
+",step
+"- Tôi phải thi những gì để thành nhân viên chính thức
+",step
+"- có bao nhiêu người phỏng vấn
+",step
+"- Đi phỏng vấn có test không
+",step
+"- Cần chuẩn bị những gì cho vòng phỏng vấn
+",step
+"- phỏng vấn gồm mấy bước
+",step
+"- Phỏng vấn xin việc là xong à
+",step
+"- Hình như quy trình phỏng vấn của công ty dài dòng
+",step
+"- Vòng phỏng vấn yêu cầu làm những gì
+",step
+"- Quy trình phỏng vấn ra sao
+",step
+"- nộp cv cần gửi mail à
+",submitCV
+"- Tôi muốn nộp CV xin việc cần làm gì
+",submitCV
+"- nộp cv cho phòng nhân sự à
+",submitCV
+"- nộp cv cho ai
+",submitCV
+"- quy định về cv xin việc của công ty
+",submitCV
+"- cho em xin thông tin của phòng nhân sự được không ạ
+",submitCV
+"- email của HR là gì
+",submitCV
+"- quy định khi nộp cv
+",submitCV
+"- làm sao để có thể gửi cv cho phòng nhân sự
+",submitCV
+"- Email để nộp CV là gì
+",submitCV
+"- những quy định nào cần lưu ý khi nộp đơn xin việc ạ
+",submitCV
+"- có thể nộp cv thông qua trang web công ty được không
+",submitCV
+"- Làm thế nào để nộp hồ sơ xin việc
+",submitCV
+"- tiêu đề email khi nộp cv là gì ạ
+",submitCV
+"- nộp cv online hay offline
+",submitCV
+"- Làm thế nào để nộp hồ sơ tuyển dụng
+",submitCV
+"- các cách nộp hồ sơ tuyển dụng
+",submitCV
+"- Nộp hồ sơ xin việc đến đâu
+",submitCV
+"- cách thức nộp cv xin việc
+",submitCV
+"- tôi có thể nộp hồ sơ xin việc đi đâu
+",submitCV
+"- có nộp cv trực tiếp trên web được không
+",submitCV
+"- Ad cho em hỏi em nộp CV xin việc thì nộp thế nào
+",submitCV
+"- Email để nộp CV xin việc là gì
+",submitCV
+"- Hồ sơ tuyển dụng sẽ nộp cho ai
+",submitCV
+"- Email để nộp CV xin việc là gì
+",submitCV
+"- làm sao để nộp CV
+",submitCV
+"- định dạng đính kèm của cv là gì ạ
+",submitCV
+"- Làm thế nào để nộp CV
+",submitCV
+"- Tôi muốn nộp CV thì nộp cho ai
+",submitCV
+"- các cách để gửi đơn xin việc đi ạ
+",submitCV
+"- Email để nộp hồ sơ tuyển dụng là gì 
+",submitCV
+"- Cho tôi xin email của phòng nhân sự
+",submitCV
+"- email phòng nhân sự là gì ạ
+",submitCV
+"- Cách thức nộp hồ sơ tuyển dụng
+",submitCV
+"- Làm thế nào để nộp CV xin việc
+",submitCV
+"- số điện thoại phòng nhân sự là gì ạ
+",submitCV
+"- mỗi ngày làm việc bao nhiêu Giờ
+",timework
+"- Công ty bắt đầu làm việc buổi sáng từ lúc mấy giờ
+",timework
+"- Công ty làm việc lúc mấy h 
+",timework
+"- mấy giờ là bắt đầu giờ làm buổi chiều
+",timework
+"- một ngày làm việc từ mấy giờ đến mấy Giờ
+",timework
+"- Thời gian nghỉ trưa công ty là bao lâu
+",timework
+"- công ty có flex thời gian không
+",timework
+"- thích đi muộn về muộn có được không
+",timework
+"- một tuần có làm bao nhiêu ngày 
+",timework
+"- Thời gian biểu làm việc của công ty
+",timework
+"- mỗi ngày làm việc 8 tiếng ạ
+",timework
+"- Một tuần làm việc mấy ngày
+",timework
+"- buổi chiều tan làm lúc mấy giờ ạ
+",timework
+"- thời gian bắt đầu làm việc buổi sáng là khi nào
+",timework
+"- công ty có cho nhân viên tự sắp xếp thời gian làm việc không
+",timework
+"- thời gian cho nhân viên có linh hoạt không
+",timework
+"- mấy giờ thì được đi ăn trưa
+",timework
+"- Công ty làm việc tuần mấy ngày
+",timework
+"- số giờ làm việc tối thiểu
+",timework
+"- Thời gian ăn trưa ở công ty là mấy giờ
+",timework
+"- thời gian nghỉ trưa từ mấy giờ đến mấy giờ 
+",timework
+"- Tuần công ty làm việc từ thứ mấy đến thứ mấy
+",timework
+"- Công ty làm việc tuần bao nhiêu ngày
+",timework
+- buổi chiều làm việc khi nào ,timework
+"- Một tuần làm việc bao nhiêu ngày
+",timework
+"- giờ làm việc công ty có theo giờ hành chính không
+",timework
+"- Công ty bắt đầu làm việc lúc mấy giờ
+",timework
+"- công ty làm việc buổi sáng từ mấy Giờ
+",timework
+"- số giờ làm việc tối thiểu mỗi tuần là bao nhiêu Giờ
+",timework
+"- Thời gian làm việc công ty thế nào
+",timework
+"- Công ty làm việc mấy ngày một tuần
+",timework
+"- Giờ hành chính tại công ty thế nào
+",timework
+"- thời gian làm việc buổi sáng muộn nhất là mấy giờ 
+",timework
+"- Công ty bắt đầu buổi chiều làm việc lúc mấy giờ
+",timework
+"- thời gian làm việc nhân viên có bị cứng nhắc quá không
+",timework
+"- công ty làm việc từ mấy Giờ
+",timework
+"- 5h tan giờ làm buổi chiều ạ
+",timework
+"- Thời gian làm việc của công ty bắt đầu từ khi nào
+",timework
+"- SVMC nằm ở đâu
+",where
+"- Công ty ở đâu
+",where
+"- trung tâm svmc có bao nhiêu chi nhanh
+",where
+"- Địa chỉ
+",where
+"- Trụ sở SVMC nằm ở đâu
+",where
+"- Cho tao địa chỉ công ty
+",where
+"- Địa chỉ ở đâu
+",where
+"- Công ty nằm ở chỗ nào
+",where
+"- Trụ sở công ty ở chỗ nào
+",where
+"- công ty ở số 1 phạm văn bạch à 
+",where
+"- công ty năm ở chỗ nào
+",where
+"- SVMC nằm ở đường nào
+",where
+- công ty gần đường nào ạ,where
+"- Công ty nằm ở đâu
+",where
+"- Địa chỉ công ty ở chỗ nào
+",where
+"- Địa chỉ công ty nằm ở đâu
+",where
+"- SVMC xa không
+",where
+"- công ty có trụ sở ở chỗ nào
+",where
+"- Địa chỉ SVMC nằm ở chỗ nào
+",where
+"- Trụ sở SVMC nằm ở chỗ nào
+",where
+"- Địa chỉ SVMC nằm ở đâu
+",where
+"- địa chỉ trung tâm svmc ở chỗ nào
+",where
+"- Trụ sở ở đâu
+",where
+"- SVMC nằm ở quận/huyện nào
+",where
+"- Xin địa chỉ
+",where
+"- Xin địa chỉ công ty
+",where
+"- svmc ở Bắc Ninh có phải không
+",where
+"- công ty năm trên đường nào
+",where
+"- svmc ở Hà Nội à
+",where
+"- Trụ sở công ty ở đâu
+",where
+"- công ty hiện tại đang ở chỗ nào ạ
+",where
+"- trung tâm svmc nằm trên đường nào
+",where
+"- Ad cho xin địa chỉ công ty với
+",where
+"- Ad cho xin địa chỉ công ty
+",where
+"- svmc nằm ở khu nào
+",where

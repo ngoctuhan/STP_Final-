@@ -1,0 +1,1 @@
+Công ty sẽ cấp sẵn mỗi nhân viên một laptop, mỗi bộ phận đặc thù thì có thể có thêm các thiết bị khác phụ thuộc vào bộ phận.

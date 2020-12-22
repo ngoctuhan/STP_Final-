@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Demo Office Bot</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css"
+        rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="static/chat_off.css">
+    <!-- <link rel="stylesheet" href="chat.css"> -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"
+        integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="head" style="border: 1px solid #c4c4c4; text-align: center; background-color: #34495e; color: azure;">
+        <h3>OFFICE BOT SVMC</h3>
+    </div>
+    <div class="mesgs " style="border: 1px solid #c4c4c4; width: 65%; margin-left: 17.5%;">
+        <div class="msg_history">
+            <div class="incoming_msg" style="display: flex;">
+                <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil">
+                </div>
+                <div class="received_msg">
+                    <div class="received_withd_msg" style="width: 75%;">
+                        <p>Selena bot nhân sự SVMC chào bạn! Bạn muốn biết thông tin tuyển dụng về SVMC không? Nếu muốn thì đặt câu hỏi đi.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="outgoing_msg">
+                <div class="sent_msg">
+                    <p>Test which is a new approach to have all
+                        solutions</p>
+                    <span class="time_date"> 11:01 AM | June 9</span>
+                </div>
+            </div> -->
+        </div>
+        <div class = 'next_word'>
+            <ul class = 'next_text' style="display: flex; padding-left: 0px; padding-top: 0px;">
+
+                <!-- <li class="recommend">trong</li>
+                <li class="recommend">công</li>
+                <li class="recommend">nhân</li>
+                <li class="recommend">viên</li>
+                <li class="recommend">nhân</li>
+                <li class="recommend">viên</li> -->
+    
+            </ul>
+        </div>
+        <div class="type_msg mt-3">
+            <div class="input_msg_write">
+                <input id = 'input'  type="text" class="write_msg" placeholder="Type a message" />
+                <button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o"
+                        aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="myDIV" onscroll="myFunction()">
+        <ul id='ul-recom' style="display: flex; padding-left: 0px; padding-top: 0px;">
+
+            <li class="recommend" style="background-color: #2ecc71; color: azure;">degree</li>
+            <li class="recommend" style="background-color: #e74c3c; color: azure;">salary</li>
+            <li class="recommend" style="background-color: #e67e22; color: azure;">laudatory</li>
+            <li class="recommend" style="background-color: #9b59b6; color: azure;">submitCV</li>
+
+        </ul>
+    </div>
+    <!-- ############# pop up sẽ view lên ở đây nhé-->
+    <div id='myModal' class=" modal fade" id="exampleModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Submit Resume to HR</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form id="uploadbanner" enctype="multipart/form-data" method="post" action="/submit_cv">
+                    <div class="modal-body">
+
+                        <input id="fileupload" name="file" type="file" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button id ='upload_cv' type="button" value="Upload Image" name="submit" class="btn btn-primary">Send resume</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function addZero(i) {
+            if (i < 10) {
+                i = "0" + i;
+            }
+            return i;
+        };
+        colors = ['#1abc9c', '#2ecc71', '#3498db', '#f1c40f', '#e67e22', '#e74c3c', '#f39c12', '#d35400'];
+        var intent_bf = 'non';
+        var x = Math.floor(Math.random() * 10000000);
+        var socket = io.connect('http://' + document.domain + ':' + location.port);
+        user_name = 'Trung';
+        // broadcast a message
+        socket.on('connect', function () {
+
+            var input = document.getElementById("input");
+            input.addEventListener("keyup", function(event) {
+
+                if (event.keyCode == 13) {
+                
+                    event.preventDefault();
+                    let user_input = $('#input').val();
+                    alert('enter click');
+
+                    let time = '';
+                    var d = new Date();
+                    var h = addZero(d.getHours());
+                    var m = addZero(d.getMinutes());
+
+                    if (h > 12) {
+                        time = time + h % 12;
+                        time += ":" + m + " PM | Today";
+                    } else {
+                        time = time + h;
+                        time += ":" + m + " AM | Today";
+                    }
+
+                    // var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+
+                    let new_tag = '<div class="outgoing_msg"> <div class="sent_msg"> <p>' + user_input +
+                        '</p><span class="time_date">' + time + '</span></div> </div>';
+
+                    $('.msg_history').append(new_tag);
+                    $('.msg_history').animate({
+                        scrollTop: 10000
+                    });
+
+                    socket.emit('my event', {
+                        intent_bf: intent_bf,
+                        user_name: user_name,
+                        message: user_input,
+                        sender: x
+                    });
+
+                    // revove text input
+                    $('.write_msg').val('').focus();
+                    $('#ul-recom').empty()
+                }
+
+            });
+            $(".msg_send_btn").click(function () {
+                let user_input = $('.write_msg').val();
+
+                let time = '';
+                var d = new Date();
+                var h = addZero(d.getHours());
+                var m = addZero(d.getMinutes());
+
+                if (h > 12) {
+                    time = time + h % 12;
+                    time += ":" + m + " PM | Today";
+                } else {
+                    time = time + h;
+                    time += ":" + m + " AM | Today";
+                }
+
+                // var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+
+                let new_tag = '<div class="outgoing_msg"> <div class="sent_msg"> <p>' + user_input +
+                    '</p><span class="time_date">' + time + '</span></div> </div>';
+
+                $('.msg_history').append(new_tag);
+                $('.msg_history').animate({
+                    scrollTop: 10000
+                });
+
+                socket.emit('my event', {
+                    intent_bf: intent_bf,
+                    user_name: user_name,
+                    message: user_input,
+                    sender: x
+                });
+
+                // revove text input
+                $('.write_msg').val('').focus();
+                $('#ul-recom').empty()
+
+            });
+
+
+        });
+        socket.on('connect', function () {
+            $(document).on('click', '.recommend', function (e) {
+
+                let intent = $(this).text();
+                // alert(intent);
+                let time = '';
+                var d = new Date();
+                var h = addZero(d.getHours());
+                var m = addZero(d.getMinutes());
+
+                if (h > 12) {
+                    time = time + h % 12;
+                    time += ":" + m + " PM | Today";
+                } else {
+                    time = time + h;
+                    time += ":" + m + " AM | Today";
+                }
+
+                // var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+                let user_input = $('.write_msg').val();
+                let new_tag = '<div class="outgoing_msg"> <div class="sent_msg"> <p>' + intent +
+                    '</p><span class="time_date">' + time + '</span></div> </div>';
+
+                $('.msg_history').append(new_tag);
+                $('.msg_history').animate({
+                    scrollTop: 10000
+                });
+
+                socket.emit('intent click', {
+                    intent_bf: intent_bf,
+                    user_name: user_name,
+                    message: intent,
+                    sender: x
+                });
+
+                // revove text input
+                $('.write_msg').val('').focus();
+                $('#ul-recom').empty();
+            });
+        });
+        // capture message
+        socket.on('my response', function (msg) {
+            console.log(msg);
+            if (typeof msg.user_name != 'undefined') {
+                // $( 'h1' ).remove()
+                if (x == msg.sender) {
+
+                    let time = '';
+                    var d = new Date();
+                    var h = addZero(d.getHours());
+                    var m = addZero(d.getMinutes());
+
+                    if (h > 12) {
+                        time = time + h % 12;
+                        time += ":" + m + " PM | Today";
+                    } else {
+                        time = time + h;
+                        time += ":" + m + " AM | Today";
+                    }
+                    let new_tag =
+                        '<div class="incoming_msg"><div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"></div><div class="received_msg"><div class="received_withd_msg"><p>' +
+                        msg.message +
+                        '</p><span class="time_date">' + time + '</span></div></div></div>';
+                    $('.msg_history').append(new_tag);
+
+                    //
+                    intent_bf = msg.intent;
+                    // remove li in ul
+                    let num = msg.num;
+                    num = parseInt(num);
+                    let i = 0;
+
+                    for (i = 0; i < num; i++) {
+                        let key = 'more_' + i;
+                        id_col =  Math.floor(Math.random() * 8);
+                        style = 'style="background-color:' +  colors[id_col] + '; color: azure;"'
+                        let new_tag = '<li class="recommend" '+ style + '>' + msg[key] + '</li>';
+                        $('#ul-recom').append(new_tag);
+
+                    }
+                }
+            }
+        });
+
+        socket.on('response intent', function (msg) {
+            console.log(msg);
+            if (typeof msg.user_name != 'undefined') {
+                // $( 'h1' ).remove()
+                if (x == msg.sender) {
+
+                    let time = '';
+                    var d = new Date();
+                    var h = addZero(d.getHours());
+                    var m = addZero(d.getMinutes());
+
+                    if (h > 12) {
+                        time = time + h % 12;
+                        time += ":" + m + " PM | Today";
+                    } else {
+                        time = time + h;
+                        time += ":" + m + " AM | Today";
+                    }
+                    let new_tag =
+                        '<div class="incoming_msg"><div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"></div><div class="received_msg"><div class="received_withd_msg"><p>' +
+                        msg.message +
+                        '</p><span class="time_date">' + time + '</span></div></div></div>';
+                    $('.msg_history').append(new_tag);
+
+                    //
+                    intent_bf = msg.intent;
+                    // remove li in ul
+                    let num = msg.num;
+                    num = parseInt(num);
+                    let i = 0;
+                    for (i = 0; i < num; i++) {
+                        let key = 'more_' + i;
+
+                        let new_tag = '<li class="recommend">' + msg[key] + '</li>';
+                        $('#ul-recom').append(new_tag);
+
+                    }
+
+                    if (msg.message == 'Sẽ có một popup hiện lên thật vi diệu, ném CV vào đó.') {
+                        $("#myModal").modal();
+                    }
+                }
+            }
+        });
+
+        function myFunction() {
+            var elmnt = document.getElementById("myDIV");
+            //var x = elmnt.scrollLeft;
+            //var y = elmnt.scrollTop;
+        }
+
+        $(document).ready(function(){
+
+
+            
+
+            $('#upload_cv').click(function(){
+
+                var form_data = new FormData($('#uploadbanner')[0]);
+                $.ajax({
+                    type: 'POST',
+                    url: '/submit_cv',
+                    data: form_data,
+                    contentType: false,
+                    cache: false,
+                    processData: false,
+                    success: function(data) {
+                        $('#myModal').modal('hide');
+                        
+                        console.log('Success!');
+                        let time = '';
+                        var d = new Date();
+                        var h = addZero(d.getHours());
+                        var m = addZero(d.getMinutes());
+
+                        if (h > 12) {
+                            time = time + h % 12;
+                            time += ":" + m + " PM | Today";
+                        } else {
+                            time = time + h;
+                            time += ":" + m + " AM | Today";
+                        }
+                        let new_tag = '<div class="incoming_msg mt-3"><div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"></div><div class="received_msg"><div class="received_withd_msg"><p>' +
+                        data['msg'] +
+                        '</p><span class="time_date">' + time + '</span></div></div></div>';
+                        $('.msg_history').append(new_tag);
+                        
+                    },
+                });
+            });
+
+            var input = document.getElementById("input");
+            input.addEventListener("keyup", function(event) {
+                if (event.keyCode == 32) {
+                    event.preventDefault();
+                    let send = input.value;
+                    $.ajax({
+
+                        type: "POST",
+                        url: '/next_word',
+                        data: {
+                            word: send
+                        },
+                        dataType: 'json',
+                        success: function(res) {
+
+                            $('.next_text').empty();
+                            for( i = 0; i < parseInt(res['num']); i++)
+                            {   
+                                key = i + ''
+                                let element = '<li class ="next" style="margin-left: 15px">'+res[key]+'</li>'
+                                $('.next_text').append(element);
+                            }
+                            $('.next').click(function(){
+                                let text = $(this).text()
+                                // alert(text);
+                                let user_input = $('.write_msg').val();
+                                user_input += ' ' + text;
+                                // alert(user_input);
+                                $('.write_msg').val(user_input);
+
+                            });
+
+                        }
+
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

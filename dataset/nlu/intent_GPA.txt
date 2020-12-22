@@ -1,0 +1,62 @@
+- Để vào công ty cần điểm GPA là bao nhiêu
+- Để vào công ty thì điểm GPA thế nào
+- Điểm GPA là bao nhiêu mới có thể vào công ty
+- Điểm GPA có quan trong khi xin vào công ty không
+- Điểm GPA tối thiểu là bao nhiêu để xin vào công ty
+- Công ty có đưa ra yêu cầu gì về điểm GPA
+- Công ty yêu cầu điểm GPA là bao nhiêu
+- Công ty yêu cầu điểm GPA có cao không
+- Tôi cần điểm GPA bao nhiêu để có thể vào công ty
+- Điểm GPA của tôi bằng X có vào được công ty không
+- Tôi muốn vào công ty thì điểm GPA cần bao nhiêu
+- Vào công ty có cần điểm GPA cao không
+- Muốn vào công ty thì đểm GPA tối thiểu là bao nhiêu
+- Điểm GPA của tôi không quá cao có vào được công ty không
+- Ad cho xin thông tin về điểm GPA khi xin vào công ty
+- Để vào SVMC điểm GPA cần bao nhiêu
+- Điểm GPA bằng bao nhiêu là đủ để vào công ty
+- Điểm GPA=x có vào được công ty không
+- GPA yêu cầu bao nhiêu
+- GPA bao nhiêu thì đủ
+- GPA cần cao không
+- Điểm trung bình bao nhiêu thì đủ vào công ty
+- Công ty có đòi hỏi điểm GPA không
+- Điểm GPA thấp thì có được vào không
+- Điểm GPA có quan trọng khi xin vào công ty không
+- Điểm trung bình thấp thì sao
+- Điểm trung bình cao vào công ty có lợi hơn gì không
+- Điểm trung bình thấp có thiệt gì không
+- Điểm trung bình có bắt buộc không
+- Công ty có bắt buộc điểm trung bình không
+-Điểm GPA bao nhiêu là đủ để vào công ty
+-Điểm GPA bao nhiêu là được chấp nhận
+-Điểm GPA từ bao nhiêu trở lên là được vào công ty
+-Điểm GPA từ bao nhiêu trở lên là được chấp nhận
+-Điểm GPA tối thiểu là bao nhiêu để được chấp nhận
+-Có kinh nghiệm rồi có yêu cầu GPA không
+-Tôi đã đi làm rồi thì có cần GPA không
+-Tôi đã có kinh nghiệm rồi thì có cần điểm GPA không
+-Tôi đã có kinh nghiệm rồi thì điểm GPA có quan trọng không
+-Vị trí thực tập sinh có cần điểm GPA không
+-Vị trí thực tập sinh có yêu cầu điểm GPA không
+-Sinh viên chưa ra trường có cần điểm GPA không
+-Sinh viên chưa ra trường có yêu cầu điểm GPA không
+-Vị trí thực tập sinh thì điểm GPA là bao nhiêu
+-Sinh viên chưa ra trường thì điểm GPA là bao nhiêu
+-Đối với sinh viên chưa ra trường thì điểm GPA tối thiểu là bao nhiêu
+-Lương có tính theo GPA không
+-Lương có phụ thuộc vào GPA không
+-Điểm GPA có ảnh hưởng đến lương không
+-Điểm GPA cao có được lương cao hơn không
+-Điểm GPA có ảnh hưởng như thế nào đến lương
+-Điểm GPA cao có được ưu tiên gì không
+-Có phân biệt GPA cao và thấp khi vào công ty không
+-Công ty chấp nhận điểm GPA từ bao nhiêu
+-Công ty có quan trọng điểm GPA không
+-Công ty có quan trọng điểm trung bình không
+-Điểm trung bình quan trọng như thế nào khi vào công ty
+-Điểm trung bình đối với các trường khác nhau có khác nhau không
+-Điểm trung bình đối với những vị trí khác nhau trong công ty có khác nhau không
+-Điểm GPA có ảnh hưởng đến thăng tiến không
+-Điểm GPA quan trọng như thế nào đối với công ty
+-Các công việc khác nhau có yêu cầu điểm GPA khác nhau không

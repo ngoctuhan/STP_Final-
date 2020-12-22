@@ -1,0 +1,45 @@
+- Thời gian làm việc công ty thế nào
+- Thời gian làm việc ở công ty ra sao
+- Công ty bắt đầu làm việc lúc mấy giờ
+- Công ty làm việc lúc mấy h 
+- Một tháng làm việc bao nhiêu ngày
+- Một tuần làm việc bao nhiêu ngày
+- Một tuần làm việc mấy ngày
+- Tuần công ty làm việc từ thứ mấy đến thứ mấy
+- Thời gian làm việc của công ty bắt đầu từ khi nào
+- Công ty bắt đầu làm việc buổi sáng từ lúc mấy giờ
+- Thời gian nghỉ trưa công ty là bao lâu
+- Thời gian biểu làm việc của công ty
+- Thời gian làm việc tại công ty
+- Giờ hành chính tại công ty thế nào
+- Công ty bắt đầu buổi chiều làm việc lúc mấy giờ
+- Công ty làm việc mấy ngày một tuần
+- Công ty làm việc tuần bao nhiêu ngày
+- Công ty làm việc tuần mấy ngày
+- Thời gian ăn trưa ở công ty là mấy giờ
+- công ty làm việc từ mấy Giờ
+- công ty làm việc buổi sáng từ mấy Giờ
+- sáng làm việc từ mấy giờ 
+- một ngày làm việc từ mấy giờ đến mấy Giờ
+- 5h tan giờ làm buổi chiều ạ
+- buổi chiều tan làm lúc mấy giờ ạ
+- mỗi ngày làm việc bao nhiêu Giờ
+- thời gian nghỉ trưa từ mấy giờ đến mấy giờ 
+- thời gian bắt đầu làm việc buổi sáng là khi nào
+- mỗi ngày làm việc 8 tiếng ạ
+- một tuần có làm bao nhiêu ngày 
+- giờ làm việc công ty có theo giờ hành chính không
+- công ty có flex thời gian không
+- thời gian cho nhân viên có linh hoạt không
+- thời gian làm việc nhân viên có bị cứng nhắc quá không
+- công ty có cho nhân viên tự sắp xếp thời gian làm việc không
+- số giờ làm việc tối thiểu mỗi tuần là bao nhiêu Giờ
+- số giờ làm việc tối thiểu
+- 9h sáng vào làm có được không
+- thích đi muộn về muộn có được không
+- em không dậy sớm được, nhưng em có thể làm việc muộn có được không 
+- thời gian làm việc muộn nhất công ty là khoảng mấy Giờ
+- thời gian làm việc buổi sáng muộn nhất là mấy giờ 
+- mấy giờ thì được đi ăn trưa
+- mấy giờ là bắt đầu giờ làm buổi chiều
+- buổi chiều làm việc khi nào 
