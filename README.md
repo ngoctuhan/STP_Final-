@@ -9,5 +9,5 @@ pip install -r requiemnt.txt
 Run web:
 
 ```
-run file main
+run file app.py
 ```
